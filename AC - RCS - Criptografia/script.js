@@ -27,7 +27,7 @@ function criptografar() {
         const cript = []
 
         for(let i = 0; i < ascii.length; i++){
-            chave.push(Math.floor(Math.random() * 100));
+            chave.push(Math.floor(Math.random() * 10));
         }
 
         for (let f = 0; f < ascii.length; f++) { 
